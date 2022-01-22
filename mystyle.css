@@ -1,5 +1,5 @@
 body {
-    background-color: #;
+    background-color: #49000e;
     font-family: 'Comic Sans';
     color: rgb(255, 255, 255);
     margin :0;
@@ -21,9 +21,9 @@ transform: scale(1.1);
 }
 
 #logo {
-    position: fixed;
-    margin-top: -6.2%;
-    margin-left: 1.5%;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -350px;
 }
 
 
@@ -32,62 +32,16 @@ h2 {
 }
 
 h3 {
-    text-align: center;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-canvas { 
-    background:#000000; 
-    display: block; 
-    margin: 0 auto; 
-    margin-top: 2%;
+    text-align: left;
+    padding-top: 30px;
 }
 
 h4 {
-    padding-left: 8%;
+    text-align: left;
+    padding-bottom: 70px;
 }
-
-
 ul {
-    padding-left: 8%;
-}
-
-li {
-    padding-left: 8%;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-bottom: 8%;
-  }
-
-.center1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-.center2 {
-    padding-top: 1.5%;
-    padding-bottom: 1.5%;
-    display: block;    
-    margin-left: auto;
-    margin-right: auto;
-}
-.center3 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.wrapper {
-    display : grid;
-    grid-template-columns :  18vw 64vw 18vw ;
-    grid-template-rows: 15vh 85vh;
-    grid-template-areas: "banner banner banner" "nav body side" ;
+    padding-bottom: 30px;
 }
 
 .header {
@@ -98,26 +52,14 @@ li {
 }
 
 .body {
-    color: #707070;
+    color: white;
     font-size: larger;
+    text-align: top;
 }
 
-.leftside {
-    grid-area : nav;
-    background-color: #a80000;
-    text-align: center;
-    
-}
-.rightside {
-    grid-area : side;
-    background-color: #a80000;
-    padding-left : 10px;
-    padding-right: 20px;
-    
-}
 .body {
     grid-area : body;
-    background-color: #d4d4d4;
+    background-color: #49000e;
     overflow : auto;
     padding-left : 10px;
     padding-right : 10px;
@@ -136,14 +78,3 @@ li {
     text-align: center;
     font-size: small;
   }
-
-
-
-button {
-    background-color: #731010;
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 23.2%;
-    margin-top: -8%;
-
-}
