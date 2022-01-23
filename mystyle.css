@@ -1,6 +1,6 @@
 body {
     background-color: #49000e;
-    font-family: 'Comic Sans';
+    font-family: "Comic Sans MS", "Comic Sans";
     color: rgb(255, 255, 255);
     margin :0;
 }
@@ -34,6 +34,7 @@ h2 {
 h3 {
     text-align: left;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 h4 {
@@ -44,6 +45,14 @@ ul {
     padding-bottom: 30px;
 }
 
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
+
+totop {
+       padding-bottom: 30px ;
+   }
 .header {
     grid-area : banner;
     background-color: #e98195;
