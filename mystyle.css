@@ -45,6 +45,11 @@ ul {
     padding-bottom: 30px;
 }
 
+a::before { 
+    text-decoration: none; 
+    color: white; 
+   }
+   
 a:visited { 
     text-decoration: none; 
     color: white; 
