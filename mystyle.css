@@ -45,15 +45,24 @@ ul {
     padding-bottom: 30px;
 }
 
-a:link { 
-    text-decoration: none; 
-    color: white; 
-   }
-   
-a:visited { 
-    text-decoration: none; 
-    color: white; 
-   }
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: white;
+  }
 
 totop {
        padding-bottom: 30px ;
