@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-    color: #7b000b;
+    color: #ff0015;
     text-align: center;
     margin-top: 6%;
 }
@@ -69,7 +69,7 @@ totop {
    }
 .header {
     grid-area : banner;
-    background-color: #e98195;
+    background-color: #000000;
     display : grid;
     place-content: center;
 }
